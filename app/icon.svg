@@ -1,0 +1,47 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="64"
+  height="64"
+  viewBox="0 0 64 64"
+  role="img"
+  aria-label="Aether restaurant icon"
+>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1220" />
+      <stop offset="1" stop-color="#05070d" />
+    </linearGradient>
+    <linearGradient id="gold" x1="12" y1="10" x2="52" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7e7a7" />
+      <stop offset="0.45" stop-color="#d6b257" />
+      <stop offset="1" stop-color="#b2872f" />
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#bg)" />
+
+  <!-- Plate -->
+  <circle cx="32" cy="35" r="16.5" fill="none" stroke="#eaf0ff" stroke-opacity="0.92" stroke-width="2.5" />
+  <circle cx="32" cy="35" r="11" fill="none" stroke="#eaf0ff" stroke-opacity="0.35" stroke-width="2" />
+
+  <!-- Fork (left) -->
+  <path
+    d="M20 23v16c0 1.6-1 2.8-2.4 3.2v3.8h2.4v-3.8c1.4-.4 2.4-1.6 2.4-3.2V23h-2.4z"
+    fill="#eaf0ff"
+    fill-opacity="0.9"
+  />
+  <path d="M18.2 23v6M20 23v6M21.8 23v6" stroke="#05070d" stroke-opacity="0.35" stroke-width="1.2" />
+
+  <!-- Knife (right) -->
+  <path
+    d="M44.6 23c1.2 2.8 1.8 5.5 1.8 8.2 0 4.5-1.6 8.1-3.8 10.6V50h-2.4V23h4.4z"
+    fill="#eaf0ff"
+    fill-opacity="0.88"
+  />
+
+  <!-- Star mark -->
+  <path
+    d="M32 12.6l2.1 4.3 4.7.7-3.4 3.3.8 4.7-4.2-2.2-4.2 2.2.8-4.7-3.4-3.3 4.7-.7L32 12.6z"
+    fill="url(#gold)"
+  />
+</svg>

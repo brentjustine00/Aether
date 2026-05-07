@@ -1,4 +1,9 @@
-## Aether — Luxury Michelin Restaurant (Next.js)
+## Aether — Luxury Fine‑Dining Restaurant (Next.js)
+
+## Disclaimer (Portfolio Project)
+- This repository is a **portfolio/demo project** for showcasing UI/UX and frontend engineering.
+- The restaurant, branding, and content are **fictional** and for demonstration only.
+- Not affiliated with or endorsed by the Michelin Guide or any other brand.
 
 ## Getting Started
 
@@ -35,10 +40,10 @@ npm run lint
 ## Project Structure
 - `app/` — Next.js App Router pages/layout
 - `components/` — UI sections
-- `public/` — SVG assets
+- `public/` — static assets
 
 ## Troubleshooting (Windows PowerShell)
-If `npm` fails with “running scripts is disabled”, use `npm.cmd`:
+If `npm` fails with "running scripts is disabled", use `npm.cmd`:
 ```bash
 npm.cmd run dev
 npm.cmd run build
