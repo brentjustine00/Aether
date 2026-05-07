@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Aether | Michelin Star Restaurant — Fine Dining Experience",
   description: "An extraordinary culinary journey at Aether. A 3-Michelin starred restaurant in the heart of Paris. Experience world-class gastronomy, exquisite wine pairings, and unmatched ambiance.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/icon.svg",
   },
   keywords: [
     "Michelin star restaurant",
