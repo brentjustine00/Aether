@@ -1,0 +1,22 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(450 450) rotate(90) scale(430)">
+      <stop stop-color="#141414"/>
+      <stop offset="0.6" stop-color="#0B0B0B"/>
+      <stop offset="1" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="140" y1="460" x2="760" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D4AF37" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#D4AF37" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#D4AF37" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="900" rx="48" fill="url(#bg)"/>
+  <circle cx="450" cy="450" r="300" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="2"/>
+  <circle cx="450" cy="450" r="220" stroke="#D4AF37" stroke-opacity="0.14" stroke-width="2"/>
+  <path d="M210 510C290 340 430 290 560 325C695 362 735 510 640 635" stroke="url(#gold)" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="320" cy="390" r="9" fill="#D4AF37" fill-opacity="0.55"/>
+  <circle cx="610" cy="560" r="7" fill="#D4AF37" fill-opacity="0.45"/>
+  <circle cx="520" cy="340" r="6" fill="#D4AF37" fill-opacity="0.55"/>
+</svg>
+

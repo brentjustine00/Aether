@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0b0b0b;
+  --foreground: #f5f1e8;
+  --gold: #d4af37;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+html {
+  background: var(--background);
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+::selection {
+  background: color-mix(in oklab, var(--gold) 25%, transparent);
+}
+
+@keyframes heroIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 767px) and (prefers-reduced-motion: no-preference) {
+  .mobile-reveal {
+    opacity: 0;
+    transform: translateY(12px);
+    transition:
+      opacity 700ms ease-out var(--d, 0ms),
+      transform 700ms ease-out var(--d, 0ms);
+    will-change: opacity, transform;
+  }
+
+  .mobile-reveal.mobile-reveal--in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@layer components {
+  .gold-divider {
+    @apply h-px rounded-full bg-gradient-to-r from-transparent via-[#D4AF37]/60 to-transparent;
+  }
+
+  .btn-luxury {
+    @apply inline-flex items-center justify-center rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-6 py-3 text-sm tracking-widest text-[#F5F1E8] hover:bg-[#D4AF37]/15 hover:border-[#D4AF37]/45 transition-colors;
+  }
+}
